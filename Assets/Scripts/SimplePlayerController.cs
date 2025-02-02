@@ -50,6 +50,6 @@ public class SimplePlayerController : MonoBehaviour
         }
         
         //Finally, I take that variable and I feed it to the component in charge of movement
-        RB.velocity = vel;
+        RB.linearVelocity = vel;
     }
 }
