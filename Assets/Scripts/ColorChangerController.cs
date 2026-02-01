@@ -20,7 +20,7 @@ public class ColorChangerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //Here we update the SpriteRenderer's color to be whatever TargetColor is set to be
-            SR.color = TargetColor;
+            SR.color = Color.red;
         }
     }
 }
